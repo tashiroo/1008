@@ -1,0 +1,28 @@
+body {
+ margin:0;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display:flex;
+  padding:0 16px;
+}
+
+header h1 {
+  margin:0;
+  font-size: 22px;
+  line-height: 64px;
+}
+.sp-menu {
+ margin-left: auto;
+}
+
+.sp-menu #open {
+  font-size:32ps;
+  line-height:64px;
+  cursor:pointer;
+}
+
+main {
+  padding:0 16px;
+}
