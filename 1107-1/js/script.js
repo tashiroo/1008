@@ -8,12 +8,12 @@
     }
      const ctx = canvas.getContext('2d');
 
-    ctx.beginPath();
-    // ctx.arc(100,100,50,0,2*Math.PI);
-    // ctx.arc(100,100,50,0,300/180*Math.PI);
-    ctx.moveTo(100,100);
-    ctx.arc(100,100,50,0,300/180*Math.PI,true);
-    // ctx.stroke();
+     ctx.beginPath();
+     ctx.moveTo(50,50);
+     ctx.lineTo(100,50);
+     ctx.lineTo(100,100);
+     ctx.closePath();
+    //  ctx.stroke();
     ctx.fill();
   }
   draw();
